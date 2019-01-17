@@ -1,0 +1,25 @@
+
+<h2>Full Data</h2>
+
+<div *ngIf="complete" cdkDrag>
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">MktVolume</th>
+      <th scope="col">BidPrice</th>
+      <th scope="col">AskPrice</th>
+      <th scope="col">MktVolume</th>
+    </tr>
+  </thead>
+
+  <tbody *ngFor="let data1 of complete">
+    <tr>
+      <td>{{ data1.bidVolume }}</td>
+      <td>{{ data1.bid }}</td>
+      <td>{{ data1.ask }}</td>
+      <td>{{ data1.askVolume }}</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+

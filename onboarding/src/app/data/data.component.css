@@ -1,0 +1,18 @@
+/* body{
+  align-content: center;
+} */
+h2{
+  text-align: center;
+}
+
+table{
+  cursor: move;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+}
+
+
+tbody tr :hover{
+  background-color: rgba(200, 200, 200, 0.2)
+}
